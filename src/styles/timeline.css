@@ -1,0 +1,26 @@
+.timelineWrapper {
+  position: relative;
+  padding-left: 20px;
+}
+
+/* vertical line */
+.timelineWrapper::before {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: #e5e7eb;
+}
+
+.timelineGroup {
+  margin-bottom: 30px;
+}
+
+.timelineTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: #666;
+  margin-bottom: 14px;
+}

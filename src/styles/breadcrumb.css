@@ -1,0 +1,18 @@
+.breadcrumb {
+  font-size: 8px;
+  color: #888;
+  padding: 10px 16px;
+  /* width: 100%; */
+  /* background: #fafafa; */
+  /* border-bottom: 1px solid #eee; */
+}
+
+.breadcrumb span {
+  color: #333;
+  font-weight: 500;
+}
+.breadcrumb {
+  position: sticky;
+  top: 200;
+  z-index: 100;
+}

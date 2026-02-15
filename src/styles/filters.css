@@ -1,0 +1,59 @@
+.filter-group {
+  margin-bottom: 20px;
+}
+
+.filter-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* Hide default */
+.filter-label input {
+  display: none;
+}
+
+/* Custom box */
+.custom-checkbox,
+.custom-radio {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #cfcfcf;
+  display: inline-block;
+  position: relative;
+  transition: all 0.2s ease;
+}
+
+/* Checkbox square */
+.custom-checkbox {
+  border-radius: 4px;
+}
+
+/* Radio circle */
+.custom-radio {
+  border-radius: 50%;
+}
+
+/* Checked state */
+.filter-label input:checked + .custom-checkbox {
+  background: #6c63ff;
+  border-color: #6c63ff;
+}
+
+.filter-label input:checked + .custom-radio {
+  border-color: #6c63ff;
+}
+
+.filter-label input:checked + .custom-radio::after {
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #6c63ff;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+}
