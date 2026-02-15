@@ -1,4 +1,3 @@
-import { FiSearch } from "react-icons/fi";
 import "../styles/searchbar.css";
 type Props = {
   value: string;

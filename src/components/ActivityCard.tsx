@@ -7,18 +7,7 @@ export default function ActivityCard({ activity }: any) {
 
   const navigate = useNavigate();
 
-  const getTypeClass = () => {
-    switch (activity.activityType) {
-      case "Added":
-        return "dotAdded";
-      case "Modified":
-        return "dotModified";
-      case "Deleted":
-        return "dotDeleted";
-      default:
-        return "dotDefault";
-    }
-  };
+ 
   const getDotColor = (type: string) => {
   switch (type) {
     case "Added":
