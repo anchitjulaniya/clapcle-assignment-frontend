@@ -10,7 +10,6 @@
   z-index: 1000;
 }
 
-/* Left side */
 .header-left {
   display: flex;
   align-items: center;
@@ -29,7 +28,6 @@
   width: 240px;
 }
 
-/* Right side */
 .header-right {
   display: flex;
   align-items: center;
@@ -57,7 +55,6 @@
   font-weight: 500;
 }
 
-/* Menu button */
 .menuBtn {
   font-size: 20px;
   background: none;
@@ -66,7 +63,6 @@
   display: none;
 }
 
-/* Tablet */
 @media (max-width: 1024px) {
   .menuBtn {
     display: block;
@@ -82,7 +78,6 @@
 
 }
 
-/* Mobile */
 @media (max-width: 768px) {
 
   .header-search {
@@ -106,7 +101,6 @@
  
 }
 
-/* Small mobile */
 @media (max-width: 480px) {
 
   .header {

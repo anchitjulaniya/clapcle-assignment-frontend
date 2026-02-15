@@ -1,11 +1,9 @@
-/* Reset */
 body {
   margin: 0;
   font-family: Inter, sans-serif;
   background: #f5f6fa;
 }
 
-/* Header (top bar) */
 .navbar {
   height: 70px;
   background: white;
@@ -15,13 +13,11 @@ body {
   padding: 0 20px;
 }
 
-/* Page wrapper */
 .pageWrapper {
   min-height: 100vh;
   background-color: white;
 }
 
-/* Layout under header */
 .layout {
   display: flex;
   align-items: flex-start;
@@ -29,17 +25,14 @@ body {
   gap: 10px;
 }
 
-/* Sidebar column */
 .sidebar {
   width: 280px;
   flex-shrink: 0;
 }
 
-/* Content column */
 .contentArea {
   flex: 1;
   padding: 20px 30px;
-  /* background-color: antiquewhite; */
   background: #f7f8fc;
   border-radius: 20px;
   box-shadow: "0 19px 7px rgb(0 0 0 / 0.1)";

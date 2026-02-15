@@ -3,7 +3,6 @@
   padding-left: 20px;
 }
 
-/* vertical line */
 .timelineWrapper::before {
   content: "";
   position: absolute;

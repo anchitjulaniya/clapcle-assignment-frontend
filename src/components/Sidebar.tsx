@@ -20,7 +20,7 @@ export default function Sidebar({
   const [selectedModules, setSelectedModules] = useState<string[]>([]);
   const [selectedCustomers, setSelectedCustomers] = useState<string[]>([]);
   const [activityType, setActivityType] = useState("All");
-  const [amount, setAmount] = useState(80000);
+
   const [minAmount, setMinAmount] = useState(4000);
   const [maxAmount, setMaxAmount] = useState(92000);
 
@@ -194,7 +194,8 @@ export default function Sidebar({
             !selectedModules.length &&
             !selectedCustomers.length &&
             activityType === "All" &&
-            amount === 150000
+            minAmount === 0 &&
+            maxAmount === 150000
           }
         >
           Clear

@@ -7,7 +7,6 @@
   top: 70px;
   height: calc(100vh - 70px);
   overflow-y: auto;
-  /* border-radius: 20px; */
   box-shadow: "0 9px 7px rgb(0 0 0 / 0.1)";
   transition: transform 0.3s ease;
 }
@@ -17,7 +16,6 @@
   }
 }
 
-/* Tablet */
 @media (max-width: 1024px) {
   .sidebar {
     position: fixed;
@@ -33,7 +31,6 @@
   }
 }
 
-/* Title */
 .filterTitle {
   font-size: 18px;
   font-weight: 600;
@@ -54,7 +51,6 @@
   font-weight: 600;
 }
 
-/* Checkbox & Radio labels */
 .filterSection label {
   display: flex;
   align-items: center;
@@ -64,7 +60,6 @@
   cursor: pointer;
 }
 
-/* Checkbox */
 .filterSection input[type="checkbox"] {
   width: 12px;
   height: 12px;
@@ -72,13 +67,11 @@
   cursor: pointer;
 }
 
-/* Radio */
 .filterSection input[type="radio"] {
   accent-color: #6c63ff;
   cursor: pointer;
 }
 
-/* Slider */
 .slider {
   width: 100%;
   margin-top: 8px;
@@ -94,8 +87,6 @@
   cursor: pointer;
 }
 
-
-/* Apply button */
 .applyBtn {
   width: 100%;
   background: #6c63ff;
@@ -113,7 +104,6 @@
   background: #584ff2;
 }
 
-/* Checkbox */
 .checkboxLabel {
   display: flex;
   align-items: center;
@@ -153,7 +143,6 @@
   transform: rotate(45deg);
 }
 
-/* Radio */
 .radioLabel {
   display: flex;
   align-items: center;
@@ -178,8 +167,6 @@
   border-color: #6c63ff;
   background: radial-gradient(#6c63ff 45%, transparent 46%);
 }
-
-/* Amount row */
 .amountRow {
   display: flex;
   justify-content: space-between;
@@ -231,7 +218,6 @@
   height: 36px;
 }
 
-/* Background track */
 .sliderTrack {
   position: absolute;
   top: 50%;
@@ -243,7 +229,6 @@
   border-radius: 4px;
 }
 
-/* Active range */
 .sliderRange {
   position: absolute;
   top: 50%;
@@ -252,8 +237,6 @@
   transform: translateY(-50%);
   border-radius: 4px;
 }
-
-/* Range inputs */
 .range {
   position: absolute;
   width: 100%;
@@ -263,12 +246,10 @@
   background: none;
 }
 
-/* Remove default track */
 .range::-webkit-slider-runnable-track {
   background: transparent;
 }
 
-/* Thumb */
 .range::-webkit-slider-thumb {
   pointer-events: all;
   -webkit-appearance: none;
